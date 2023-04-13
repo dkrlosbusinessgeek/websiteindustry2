@@ -1,0 +1,151 @@
+/* Style de base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f6f9fc;
+  color: #333;
+}
+
+/* En-tête */
+header {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+/* Logo */
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Navigation */
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav li a:hover {
+  color: #555;
+}
+
+/* Section principale */
+main {
+  margin-top: 100px;
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+/* Titre de section */
+section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* Sous-titre de section */
+section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Bouton */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5c9edb;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #4089c6;
+}
+
+/* Grille */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 33.33%;
+  text-align: center;
+  padding: 40px;
+}
+
+.col img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.col h4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.col p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Pied de page */
+footer {
+  background-color
